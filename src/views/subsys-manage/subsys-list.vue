@@ -1,10 +1,10 @@
 <template>
-  <span>机构列表</span>
+
 </template>
 
 <script>
     export default {
-        name: "OrgList"
+        name: "subsys-list"
     }
 </script>
 

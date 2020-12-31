@@ -121,6 +121,7 @@
   }
   .el-aside {
     background-color: $aside-bgColor;
+    //background-image: linear-gradient(#3448a1,#0086f1);
     color: $font-color;
     height: 100%;
   }
@@ -138,9 +139,9 @@
     overflow: hidden;
   }
   .content-wrapper {
-    height: calc(100% - 36px);
+    height: calc(100% - 16px);
     overflow: auto;
-    padding: 0 16px 12px;
+    padding: 16px 12px;
   }
   .com-height {
     height: 44px;
