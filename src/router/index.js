@@ -3,8 +3,10 @@ import Router from 'vue-router'
 import Main from '../views/main'
 import OrgList from '../views/org-manage/org-list'
 import SubSysList from '../views/subsys-manage/subsys-list'
+import UserList from '../views/user-manage/user-list'
+import RoleList from '../views/role-manage/role-list'
 
-Vue.use(Router)
+Vue.use(Router);
 
 const router = new Router({
     routes: [{
@@ -31,10 +33,28 @@ const router = new Router({
                   active:'/subsystem'
                 },
                 component:SubSysList,
+              },
+              {
+                path:'/user',
+                name:'用户管理',
+                leaf: true,
+                meta:{
+                  active:'/user'
+                },
+                component:UserList,
+              },
+              {
+                path:'/role',
+                name:'角色管理',
+                leaf: true,
+                meta:{
+                  active:'/role'
+                },
+                component:RoleList,
               }
             ]
         }
     ]
-})
+});
 
 export default router

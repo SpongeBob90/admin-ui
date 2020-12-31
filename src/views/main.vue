@@ -3,7 +3,7 @@
     <el-container>
       <el-aside width="200px">
         <div class="logo-container">
-          <span class="logoName">子系统管理平台</span>
+          <span class="logoName">权限管理平台</span>
         </div>
         <nav-left></nav-left>
       </el-aside>

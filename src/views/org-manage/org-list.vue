@@ -153,5 +153,5 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "../../styles/org-manage/index.scss";
+  @import "../../styles/list";
 </style>
