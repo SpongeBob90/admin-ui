@@ -139,7 +139,7 @@
     overflow: hidden;
   }
   .content-wrapper {
-    height: calc(100% - 16px);
+    height: 100%;//calc(100% - 16px);
     overflow: auto;
     padding: 16px 12px;
   }

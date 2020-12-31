@@ -1,4 +1,4 @@
-<template>
+nom<template>
   <div id="subsys-manage" class="common-root" :style="{minHeight: minHeight + 'px'}">
     <!-- 条件筛选查询 -->
     <div class="select-container">
@@ -94,7 +94,7 @@
       }
     },
     created() {
-      this.minHeight = window.innerHeight - 95;
+      this.minHeight = window.innerHeight - 92;
     }
   }
 </script>
